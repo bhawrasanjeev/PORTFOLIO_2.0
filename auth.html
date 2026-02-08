@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Sanjeev Bhawra Portfolio</title>
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Welcome Container -->
+    <div class="welcome-container">
+        <div class="welcome-card">
+            <!-- Logo Animation -->
+            <div class="logo-animation">
+                <div class="code-symbol">&lt;</div>
+                <div class="logo-main">SB</div>
+                <div class="code-symbol">/&gt;</div>
+            </div>
+
+            <!-- Welcome Text -->
+            <h1 class="welcome-title">
+                <span class="wave-emoji">👋</span>
+                Welcome to My Portfolio
+            </h1>
+            <p class="welcome-subtitle">
+                I'm <span class="highlight">Sanjeev Bhawra</span>, a passionate Computer Science student
+            </p>
+
+            <!-- Name Input Form -->
+            <div class="input-container">
+                <div class="input-wrapper">
+                    <i class="fas fa-user input-icon"></i>
+                    <input 
+                        type="text" 
+                        id="visitorName" 
+                        class="name-input" 
+                        placeholder="Enter your name to continue..."
+                        autocomplete="off"
+                        maxlength="30"
+                    >
+                </div>
+                <div class="error-message" id="errorMessage">
+                    <i class="fas fa-exclamation-circle"></i>
+                    Please enter your name
+                </div>
+            </div>
+
+            <!-- Enter Button -->
+            <button class="enter-btn" id="enterBtn">
+                <span class="btn-text">Enter Portfolio</span>
+                <i class="fas fa-arrow-right btn-icon"></i>
+            </button>
+
+            <!-- Guest Option -->
+            <div class="guest-option">
+                <span>or</span>
+                <button class="guest-btn" id="guestBtn">
+                    Continue as Guest
+                </button>
+            </div>
+
+            <!-- Features Preview -->
+            <div class="features-preview">
+                <div class="feature-item">
+                    <i class="fas fa-code"></i>
+                    <span>Projects</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Education</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-tools"></i>
+                    <span>Skills</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="auth-footer">
+            <p>&copy; 2026 Sanjeev Bhawra. Made with <i class="fas fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script src="js/auth.js"></script>
+</body>
+</html>

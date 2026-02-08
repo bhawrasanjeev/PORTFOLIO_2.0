@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeev Bhawra | Portfolio</title>
+    <meta name="description" content="Portfolio of Sanjeev Bhawra - Computer Science Engineering Student">
+        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar"> 
+        <div class="portfolio" data-aos="fade-right">
+            <span class="portfolio-text">PORTFOLIO</span>
+            <div class="portfolio-underline"></div>
+        </div>
+        <div class="nav-links" data-aos="fade-left">
+            <a href="#home" class="nav-link active" id="nav-home">
+                <span>HOME</span>
+            </a>
+            <a href="#about" class="nav-link" id="nav-about">
+                <span>ABOUT</span>
+            </a>
+            <a href="#projects" class="nav-link" id="nav-projects">
+                <span>PROJECTS</span>
+            </a>
+            <a href="#others" class="nav-link" id="nav-others">
+                <span>OTHERS</span>
+            </a>
+            <button id="dark-mode-toggle" class="dark-mode-btn" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+        <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-up" data-aos-duration="1000">
+                <div class="greeting">
+                    <span class="greeting-text">I'M</span>
+                    <div class="typing-container">
+                        <h1 class="typing-text" id="typing-text">SANJEEV BHAWRA</h1>
+                    </div>
+                </div>
+                <div class="role-container" data-aos="fade-up" data-aos-delay="500">
+                    <h3 class="role-title">
+                        <span class="role-label">STUDENT OF</span>
+                        <span class="role-name">COMPUTER SCIENCE ENGINEER</span>
+                    </h3>
+                </div>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="700">
+                    <a href="#about" class="btn btn-primary">Know More</a>
+                    <a href="/assets/images/documents/Sanjeev_Bhawra_Resume.pdf" target="_blank" class="btn btn-secondary">
+                        <i class="fa-solid fa-download"></i> Resume
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                <div class="image-wrapper">
+                    <div class="image-glow"></div>
+                    <img src="assets/images/sanjeev.png" alt="Sanjeev Bhawra" class="profile-main-image">
+                    <div class="floating-badge">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-text">ABOUT</span>
+                <span class="title-underline"></span>
+            </h2>
+            
+            <div class="about-content">
+                <!-- Professional Summary -->
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <h3 class="card-title">Professional Summary</h3>
+                    <div class="card-content">
+                        <p>
+                            I completed my 12th grade in non-medical with <strong>89.6%</strong> and secured admission in a government university. 
+                            During a three-month break before starting college, I stayed with my brother, <strong>MR. MUKUL JARIYAL</strong>, 
+                            a DevOps and platform engineer, and took the opportunity to learn full-stack development.
+                        </p>
+                        <p>
+                            I gained hands-on experience with <strong>Linux, HTML, CSS, MongoDB, JavaScript, Node.js</strong>, and server management. 
+                            Initially, I found coding and understanding functions challenging, but with persistent effort, I gradually improved.
+                        </p>
+                        <p class="highlight-text">
+                            This journey has been both difficult and rewarding, and I am eager to apply my skills and continue learning 
+                            in the field of software development.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="card-title">Education</h3>
+                    <div class="card-content">
+                        <ul class="education-list">
+                               <li>
+                                <div class="education-item">
+                                    <i class="fa-solid fa-university"></i>
+                                    <div>
+                                        <strong>B.Tech CSE</strong>
+                                        <p>Sardar Beant Singh State University, GURDASPUR</p>
+                                        <span class="percentage">Present</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="education-item">
+                                    <i class="fa-solid fa-school"></i>
+                                    <div>
+                                        <strong>10th Grade</strong>
+                                        <p>Government Senior Secondary Smart School, GHAROTA (PATHANKOT)</p>
+                                        <span class="percentage">91%</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="education-item">
+                                    <i class="fa-solid fa-school"></i>
+                                    <div>
+                                        <strong>12th Grade (Non-Medical)</strong>
+                                        <p>Government Senior Secondary Smart School, GHAROTA (PATHANKOT)</p>
+                                        <span class="percentage">89.6%</span>
+                                    </div>
+                                </div>
+                            </li>
+                         
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="about-card skills-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="card-title">Skills</h3>
+                    <div class="card-content">
+                        <div class="skills-grid">
+                            <div class="skill-item" data-skill="90">
+                                <div class="skill-header">
+                                    <span class="skill-name">Frontend</span>
+                                    <span class="skill-percent">0%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                                <p class="skill-tech">HTML, CSS, JavaScript</p>
+                            </div>
+                            <div class="skill-item" data-skill="75">
+                                <div class="skill-header">
+                                    <span class="skill-name">Backend</span>
+                                    <span class="skill-percent">0%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                                <p class="skill-tech">Node.js, MongoDB</p>
+                            </div>
+
+                             <div class="skill-item" data-skill="35">
+                                <div class="skill-header">
+                                    <span class="skill-name">DSA</span>
+                                    <span class="skill-percent">0%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="35"></div>
+                                </div>
+                                <p class="skill-tech">In C++</p>
+                            </div>
+
+                            <div class="skill-item" data-skill="80">
+                                <div class="skill-header">
+                                    <span class="skill-name">Programming</span>
+                                    <span class="skill-percent">0%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                                <p class="skill-tech">C++, OOPs, Python</p>
+                            </div>
+                            <div class="skill-item" data-skill="70">
+                                <div class="skill-header">
+                                    <span class="skill-name">DevOps</span>
+                                    <span class="skill-percent">0%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="20"></div>
+                                </div>
+                                <p class="skill-tech">Linux, Server Management</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Profile Image -->
+                <div class="profile-image-container" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="profile-image-wrapper">
+                        <div class="profile-image-glow"></div>
+                        <img src="assets/images/shanu.jpeg" alt="Sanjeev Bhawra Profile" class="profile-image">
+                        <div class="profile-badge">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-text">PROJECTS</span>
+                <span class="title-underline"></span>
+            </h2>
+            
+            <div class="projects-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-image">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Front Assignment Page</h3>
+                        <p class="project-description">Frontend development project showcasing responsive design</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="https://bhawrasanjeev.github.io/FRONT-ASSIGEMENET-PAGE/" target="_blank" class="project-link">
+                            <i class="fa-solid fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-image">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Personal Assistant</h3>
+                        <p class="project-description">AI-powered personal assistant application</p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>AI</span>
+                        </div>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="https://github.com/bhawrasanjeev/PERSIONAL-ASSISANT" target="_blank" class="project-link">
+                            <i class="fa-solid fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="project-image">
+                        <i class="fa-solid fa-calculator"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Animated Calculator</h3>
+                        <p class="project-description">Beautiful calculator with smooth animations</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="https://github.com/bhawrasanjeev/ANIMATED_CALCULATOR" target="_blank" class="project-link">
+                            <i class="fa-solid fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="project-image">
+                        <i class="fa-solid fa-list-check"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">To-Do List</h3>
+                        <p class="project-description">Task management application with local storage</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="https://github.com/bhawrasanjeev/To-Do-list" target="_blank" class="project-link">
+                            <i class="fa-solid fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="project-image">
+                        <i class="fa-solid fa-plug"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">API Project</h3>
+                        <p class="project-description">RESTful API development with backend integration</p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>API</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="https://github.com/bhawrasanjeev/API-Project" target="_blank" class="project-link">
+                            <i class="fa-solid fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="project-image">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">DIALOGIX</h3>
+                        <p class="project-description">Real-time chat application</p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>WebSocket</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="https://github.com/bhawrasanjeev/DIALOGIX" target="_blank" class="project-link">
+                            <i class="fa-solid fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Others Section -->
+    <section id="others" class="others-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-text">OTHERS</span>
+                <span class="title-underline"></span>
+            </h2>
+            
+            <div class="others-content">
+                <!-- Resume Card -->
+                <div class="others-card resume-card" data-aos="fade-right" data-aos-delay="100">
+                    <div class="card-icon-large">
+                        <i class="fa-solid fa-file-pdf"></i>
+                    </div>
+                    <h3 class="card-title">Resume</h3>
+                    <p class="card-description">Download my latest resume</p>
+                    <a href="assets/images/documents/Sanjeev_Bhawra_Resume.pdf" target="_blank" class="btn btn-download">
+                        <i class="fa-solid fa-download"></i> Download Resume
+                    </a>
+                </div>
+
+                <!-- Hobbies Card -->
+                <div class="others-card hobbies-card" data-aos="fade-left" data-aos-delay="200">
+                    <div class="card-icon-large">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <h3 class="card-title">Hobbies</h3>
+                    <div class="hobbies-list">
+                        <div class="hobby-item">
+                            <i class="fa-solid fa-clapperboard"></i>
+                            <span>Watching Web Series</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Playing Indoor Games (Mobile/Laptop)</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fa-solid fa-house-laptop"></i>
+                            <span>Staying Informed About Tech Trends</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-text">CONTACT ME</span>
+                <span class="title-underline"></span>
+            </h2>
+            
+            <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>bhawsanjeev102@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+91 88377XXXXX</span>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.instagram.com/sanjeevbhawra/" target="_blank" class="social-link instagram" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://in.linkedin.com/in/sanjeevbhawra" target="_blank" class="social-link linkedin" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://www.facebook.com/sanjeev.bhawra" target="_blank" class="social-link facebook" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="fa-brands fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://x.com/sanjeev_bhawra?t=XdO7utvaUSTPZfIda9dOzg&s=09&mx=2" target="_blank" class="social-link twitter" data-aos="zoom-in" data-aos-delay="400">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="https://github.com/bhawrasanjeev/" target="_blank" class="social-link github" data-aos="zoom-in" data-aos-delay="500">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026<strong>Sanjeev Bhawra</strong></p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/logic.js"></script>
+    <!-- <script src="js/auth.js"></script> -->
+    <script src="js/animations.js"></script>
+</body>
+
+</html>
